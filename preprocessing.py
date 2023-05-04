@@ -89,6 +89,3 @@ def preprocess(options: list, text: str) -> str or list:
         if process == STEMMING:
             text = stemming(text)
     return text
-
-
-print(lowercase(["Hello World!", "Hello World!"]))
